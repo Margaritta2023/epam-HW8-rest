@@ -10,6 +10,7 @@ export interface Product {
     manufacturer? : Manufacturer;
     deleted: boolean;
   }
+  
    
 export type Stock = {
     available: number;
