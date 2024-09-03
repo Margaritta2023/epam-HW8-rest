@@ -8,6 +8,7 @@ import {
   deleteProduct
 } from '../controllers/productController';
 
+
 const router = express.Router();
 
 router.get('/', getProducts);
