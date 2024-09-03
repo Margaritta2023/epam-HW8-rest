@@ -28,7 +28,6 @@ export type Manufacturer = {
   name?: string;
   address?: Address;
 };
-
 export interface ProductsData {
     products: Product[];
   }

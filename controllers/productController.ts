@@ -165,7 +165,6 @@ export const partialUpdateProduct = async (req: Request, res: Response) => {
 // DELETE /products/:id
 export const deleteProduct = async (req: Request, res: Response) :Promise<void> => {
   try {
-  
     const data: ProductsData  = await readProducts(filePath);
     const reqId = String(req.params.id);
     
