@@ -32,3 +32,4 @@ export type Manufacturer = {
 export interface ProductsData {
     products: Product[];
   }
+  

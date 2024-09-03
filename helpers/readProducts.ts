@@ -9,3 +9,5 @@ export  const readProducts = async (filePath:string): Promise<ProductsData> => {
       throw new Error('Error reading products file');
     }
   };
+
+  

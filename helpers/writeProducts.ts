@@ -8,4 +8,5 @@ export const writeProducts = async (products: ProductsData,filePath:string): Pro
       throw new Error('Error writing to products file');
     }
   };
+
   
