@@ -139,7 +139,7 @@ export const partialUpdateProduct = async (req: Request, res: Response) => {
     if (!product.manufacturer) {
       product.manufacturer = {};
     }
-    // check if manufacturer address objects exist
+    // check if manufacturer address objects exists
     if (!product.manufacturer.address) {
       product.manufacturer.address = {};
     }
@@ -183,6 +183,7 @@ export const deleteProduct = async (req: Request, res: Response) :Promise<void> 
     res.status(500).send("Server error");
   }
 };
+
 
 
 
